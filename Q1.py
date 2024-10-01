@@ -6,6 +6,10 @@ def convert_to_indian_currency(number):
 #Split the last three digits from the rest.
 #Divide the rest into two-digit groups from right to left.
 #Combine the parts with commas.
+    number_str becomes "504678".
+#The last 3 digits are "678", so formatted_number becomes "678", and number_str becomes "504".
+#We then process the remaining digits in pairs. "04" is added, so formatted_number becomes "04,678", and number_str becomes "5".
+#Finally, "5" is added to the front, resulting in "5,04,678".
     number_str = str(number)
 
     formatted_number = ""

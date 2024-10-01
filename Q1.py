@@ -2,6 +2,10 @@
 
 def convert_to_indian_currency(number):
     # Convert the number to a string for further conversion
+  #  Convert the number to a string.
+#Split the last three digits from the rest.
+#Divide the rest into two-digit groups from right to left.
+#Combine the parts with commas.
     number_str = str(number)
 
     formatted_number = ""
